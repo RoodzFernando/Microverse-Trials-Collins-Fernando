@@ -99,3 +99,13 @@ iframe {
     margin-bottom: 1.5rem;
     border: none;
 }
+
+ @media (max-width:760px) {
+            body {
+                height: 100vh;
+            }
+        }
+        
+        iframe {
+            display: inline-flex;
+        }
